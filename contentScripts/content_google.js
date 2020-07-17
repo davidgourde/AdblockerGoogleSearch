@@ -1,12 +1,3 @@
-//bad option
-/*document.addEventListener('DOMContentLoaded', function() {
-    if(document.getElementById('tads')) {
-        document.getElementById('tads').remove()
-        console.log('Removed Google Serach Result Ads!')
-    }
-})*/
-
-//good option
 var removedAds = false;
 var observer = new MutationObserver(function(mutations) {
     mutations.forEach(function(mutation) {
